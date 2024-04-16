@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="IU-233.15026.9">
+    <data-source name="SQL6031.site4now.net" uuid="8768a41f-c255-402e-b1a4-02bdec41f0bc">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MSSQL" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>db_aa5c49_rachediradouane_admin</user-name>
+      <schema-mapping />
+    </data-source>
+    <data-source name="@localhost" uuid="62829bef-1946-4b42-aa3d-73ccfbea55d1">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MSSQL" />
+      <secret-storage>master_key</secret-storage>
+      <schema-mapping />
+    </data-source>
+  </component>
+</project>

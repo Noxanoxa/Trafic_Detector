@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="KSTrafficAnalyzer:jar2">
+    <output-path>$PROJECT_DIR$/out/artifacts/KSTrafficAnalyzer_jar2</output-path>
+    <root id="archive" name="KSTrafficAnalyzer.jar">
+      <element id="module-output" name="KSTrafficAnalyzer" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libraries/opencsv-3.8.jar" path-in-jar="/" />
+      <element id="library" level="project" name="x64" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libraries/java_opencv_3.1/opencv-310.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libraries/jexcelapi/jxl.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libraries/commons-nativeutils-1.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
