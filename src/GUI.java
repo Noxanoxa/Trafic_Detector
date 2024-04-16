@@ -1136,7 +1136,11 @@ public class GUI {
     private void selectCountingLine(JFrame frame) {
 
         countingLineButton = new JButton("counting line  ");
+<<<<<<< HEAD
         countingLineButton.setPreferredSize(new Dimension(120, 40));
+=======
+        countingLineButton.setPreferredSize(new Dimension(10, 40));
+>>>>>>> 94aa130 (edit GUI)
         countingLineButton.setFont(new Font("defaut", Font.BOLD, 15));
         countingLineButton.setForeground(Color.RED);
         countingLineButton.setBackground(Color.RED);
@@ -1391,7 +1395,11 @@ public class GUI {
 
     private void setupBGSvisibility(JFrame frame) {
         BGSButton = new JButton("Substraction");
+<<<<<<< HEAD
         BGSButton.setPreferredSize(new Dimension(200, 30));
+=======
+        BGSButton.setPreferredSize(new Dimension(300, 35));
+>>>>>>> 94aa130 (edit GUI)
         BGSButton.setFont(new Font("defaut", Font.BOLD, 15));
         BGSButton.setBackground(Color.BLACK);
         BGSButton.addActionListener(event -> {
@@ -1423,22 +1431,37 @@ public class GUI {
         GridBagConstraints c = new GridBagConstraints();
         c.fill = GridBagConstraints.HORIZONTAL;
 
+<<<<<<< HEAD
         c.gridx = 0;
         c.gridy = 13;
+=======
+        c.gridx = 6;
+        c.gridy = 12;
+>>>>>>> 94aa130 (edit GUI)
         c.gridwidth = 1;
         c.insets = new Insets(0, 0, 0, 20);
         frame.add(currentTimeLabel, c);
         c.insets = new Insets(0, 0, 0, 40);
+<<<<<<< HEAD
         c.gridx = 1;
+=======
+        c.gridx = 7;
+>>>>>>> 94aa130 (edit GUI)
         frame.add(currentTimeField, c);
     }
 
     private void setupRealTime(JFrame frame) {
 
         realTimeButton = new JButton("Real time OFF");
+<<<<<<< HEAD
         realTimeButton.setPreferredSize(new Dimension(150, 35));
         realTimeButton.setFont(new Font("defaut", Font.BOLD, 15));
 
+=======
+        realTimeButton.setPreferredSize(new Dimension(300, 35));
+        realTimeButton.setFont(new Font("defaut", Font.BOLD, 15));
+        realTimeButton.setBackground(Color.BLACK);
+>>>>>>> 94aa130 (edit GUI)
 
         realTimeButton.addActionListener(event -> {
             if (isProcessInRealTime) {
