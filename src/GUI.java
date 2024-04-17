@@ -234,6 +234,7 @@ public class GUI {
 
     }
 
+
     /**
      * This class represents the main loop.
      * It reads frames from the video, processes them, and updates the GUI.

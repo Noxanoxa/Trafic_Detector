@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/KSTrafficAnalyzer.iml" filepath="$PROJECT_DIR$/KSTrafficAnalyzer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestJunit/TestJunit.iml" filepath="$PROJECT_DIR$/TestJunit/TestJunit.iml" />
     </modules>
   </component>
 </project>
